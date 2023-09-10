@@ -20,7 +20,3 @@ def game_maiorValor(amostra):
     print(f'==> Títulos do(s) GAME(S) com maior valor/venda: <==')
     print()
     print(f'Título: {nome_games} | Ano-Lançamento: {ano_games}')
-
-    if __name__ == "__main__": # tornando o arquivo utilizável tanto como script quanto como um módulo importável
-    import sys
-    fib(int(sys.argv[1]))
